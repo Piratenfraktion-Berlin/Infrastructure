@@ -11,13 +11,15 @@ This is the main repository for the it infrastructure of a political fraction.
 
 ## setup
 
-> git clone github.com:Piratenfraktion-Berlin/Infrastructure.git
-> git submodule update --recursive
-> gem install vagrant
-> vagrant up
-> > wait some time for the box be loaded from our server...
-> > maybe you have to insert your credentials to let vagrant setup your nfsd config
-> vagrant ssh
+    git clone git://github.com/Piratenfraktion-Berlin/Infrastructure.git
+    git submodule update --recursive
+    gem install vagrant
+    vagrant up
+
+> wait some time for the box be loaded from our server...
+maybe you have to insert your credentials to let vagrant setup your nfsd config
+
+    vagrant ssh
 
 enjoy! You have it up and running.
 
@@ -28,3 +30,4 @@ all work is done in the data directory and the repositories linked within that d
 ## contribution
 
 __Please do!__ Just fork the repository here, make a topic branch, and send us a pull request.
+
