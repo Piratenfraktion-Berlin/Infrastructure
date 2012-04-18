@@ -12,7 +12,7 @@ This is the main repository for the it infrastructure of a political fraction.
 ## setup
 
     git clone git://github.com/Piratenfraktion-Berlin/Infrastructure.git
-    git submodule update --recursive
+    cd Infrastructure
     gem install vagrant
     vagrant up
 
