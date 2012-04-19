@@ -5,5 +5,4 @@ include:
   - edit.emacs
   - users
   - tags
-  - hosts
   - salt.dirs
