@@ -21,11 +21,27 @@ maybe you have to insert your credentials to let vagrant setup your nfsd config
 
     vagrant ssh
 
-enjoy! You have it up and running.
+enjoy! You have your devbox up and running.
 
 ## development
 
-all work is done in the config directory.
+All work is done in the config directory. Be sure to take a look at
+[salt](http://saltstack.org/home/)
+
+Log into the devbox and start a config run to test your changes:
+
+    sudo salt '*' state.highstate
+
+## troubleshooting
+
+### failing nfs mounts
+This seems to be a Virtual Box problem. Do this to fix it:
+
+* shutdown the devbox
+* start the Virtual Box Manager
+* Go to options -> network
+* delete all networks
+* start the devbox, vagrant will create a new host-only network
 
 ## contribution
 
