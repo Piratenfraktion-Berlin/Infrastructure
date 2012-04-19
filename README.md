@@ -25,9 +25,12 @@ enjoy! You have it up and running.
 
 ## development
 
-all work is done in the data directory and the repositories linked within that directory.
+all work is done in the config directory.
 
 ## contribution
 
 __Please do!__ Just fork the repository here, make a topic branch, and send us a pull request.
 
+## credits
+
+Many thanks to elasticdog for his [salt sandbox](https://github.com/elasticdog/salt-sandbox.git), we used it's provision code for this.
