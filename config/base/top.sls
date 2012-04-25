@@ -6,6 +6,7 @@ base:
     - match: grain
     - salt.syndic
     - salt.master
+    - motd
 
   'roles:ldapd':
     - match: grain
