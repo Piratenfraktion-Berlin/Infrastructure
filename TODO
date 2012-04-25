@@ -1,0 +1,35 @@
+# TODO
+
+## 0.1 Beta
+- fix Errors in the dmesg
+- [SOLVED] integrate provisioning
+- determine format of in-config documentation
+- establish development branch and write documentation about the process
+
+
+## 0.1
+- OpenVz Control
+- support for private repo (syndic?)
+- manage SAN
+
+## 0.2
+- Database VEs
+- LoadBalancer VE
+- App-Server VE
+
+## 0.3
+- Ldap VE
+- Mail VE
+- Groupware VE
+
+## 0.4
+- Gateway VE
+- Fileserver VE
+
+## 0.5
+- support for tape robot
+- backup
+
+# future Features
+- custom config of the state tree
+- commit hook for production
