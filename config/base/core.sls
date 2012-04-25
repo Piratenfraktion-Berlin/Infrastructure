@@ -6,3 +6,4 @@ include:
   - users
   - tags
   - salt.dirs
+  - salt.init

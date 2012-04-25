@@ -109,3 +109,7 @@ master: localhost
 #
 # A dict for the test module:
 #test.baz: {spam: sausage, cheese: bread}
+
+grains:
+  roles:
+    - master
