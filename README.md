@@ -28,6 +28,10 @@ enjoy! You have your devbox up and running.
 All work is done in the config directory. Be sure to take a look at
 [salt](http://saltstack.org/home/)
 
+Be sure to make your changes in the development branch. They will be
+merged into the master branch after some testing is done.
+Don't forget to create topic branches when you integrate new features!
+
 Log into the devbox and start a config run to test your changes:
 
     sudo salt '*' state.highstate

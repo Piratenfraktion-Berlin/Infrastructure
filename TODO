@@ -1,9 +1,9 @@
 # TODO
 
 ## 0.1 Beta
-- fix Errors in the dmesg
+- [IGNORED] fix Errors in the dmesg
 - [SOLVED] integrate provisioning
-- determine format of in-config documentation
+- [SOLVED] determine format of in-config documentation
 - establish development branch and write documentation about the process
 
 
