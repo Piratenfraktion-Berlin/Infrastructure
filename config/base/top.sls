@@ -4,7 +4,7 @@ base:
 
   'roles:master':
     - match: grain
-    - salt.syndic
+    #- salt.syndic
     - salt.master
     - motd
 
