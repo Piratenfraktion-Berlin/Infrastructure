@@ -122,6 +122,7 @@ file_roots:
 pillar_roots:
   base:
     - /srv/salt/pillar
+    - /home/vagrant/config/pillar
 
 
 #####          Syndic settings       #####
