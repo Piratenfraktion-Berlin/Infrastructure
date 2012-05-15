@@ -1,9 +1,7 @@
 vim:
   pkg:
-    {% if grains['os'] == 'RedHat' %}
-    - name: vim-enhanced
-    {% endif %}
     - installed
+    - name: {{ pillar['vim'] }}
 
 /etc/vimrc:
   file:
@@ -17,5 +15,3 @@ vim:
     {% endif %}
     - mode: 644
     - makedirs: True
-    - require:
-      - pkg: vim
