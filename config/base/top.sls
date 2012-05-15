@@ -7,6 +7,7 @@ base:
     #- salt.syndic
     - salt.master
     - motd
+    - virtual
 
   'roles:ldapd':
     - match: grain
